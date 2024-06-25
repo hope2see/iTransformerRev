@@ -1,7 +1,9 @@
 #!/bin/bash
 
-unzip dataset*.zip 
+unzip dataset1.zip
+unzip dataset2.zip
+unzip dataset3.zip
 
-multivariate_forecasting/ECL/iTransformer.sh
+bash scripts/multivariate_forecasting/ECL/iTransformer.sh
 
-# multivariate_forecasting/ECL/iTransformer.sh
+
